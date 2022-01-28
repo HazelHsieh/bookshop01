@@ -1,0 +1,148 @@
+body .navbar {
+  background-color: #0a0a46;
+}
+
+#service p {
+  line-height: 1.5;
+  letter-spacing: 5px;
+}
+
+#photowall .box {
+  width: 100%;
+  height: 300px;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+#product .color-group {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+#product .color-group .color-radio {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#product .color-group .color-radio:checked + .color-label {
+  opacity: 1;
+}
+
+#product .color-group .color-radio::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 18px;
+  height: 18px;
+  background-color: #f7f7f5;
+  border-radius: 50%;
+}
+
+#product .color-group .color-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 50%;
+  opacity: 0;
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  border-radius: 50%;
+}
+
+#bestSeller > .container h2 {
+  color: #363535;
+}
+
+#bestSeller > .container .tabs > .tab {
+  width: 50px;
+  height: 25px;
+  color: burlywood;
+  text-align: center;
+  cursor: pointer;
+}
+
+#bestSeller > .container .row .card {
+  cursor: pointer;
+}
+
+#bestSeller > .container .tab.active {
+  color: white;
+  background-color: burlywood;
+}
+
+#bestSeller > .container .content {
+  display: none;
+}
+
+#bestSeller > .container .content.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#map {
+  position: relative;
+}
+
+#map .container {
+  position: relative;
+  height: 650px;
+}
+
+#map .container .feedback {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 0;
+  width: 350px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#map iframe {
+  position: absolute;
+  top: 3rem;
+}
+
+footer .footer-nav {
+  background-color: #042352;
+  opacity: 0.8;
+}
+
+footer .footer-nav p {
+  font-size: 12px;
+}
+
+footer .navbar-footer-img {
+  margin-bottom: 13px;
+  padding: 1px;
+}
+
+footer .footer-menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+footer .footer-menu-item {
+  font-size: 11px;
+}
+
+footer .footer-menu-item:first-child {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+/*# sourceMappingURL=bookshop.css.map */
