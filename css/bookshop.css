@@ -1,3 +1,7 @@
+body {
+  scroll-behavior: smooth;
+}
+
 body .navbar {
   background-color: #0a0a46;
 }

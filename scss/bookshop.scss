@@ -2,6 +2,7 @@
 @import 'mixin';
 
 body {
+    scroll-behavior: smooth;
 
     .navbar {
         background-color: rgb(10, 10, 70);
